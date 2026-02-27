@@ -1,9 +1,8 @@
 "use client"
 
-import Link from "next/link"
 import { motion } from "framer-motion"
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground mt-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -26,19 +25,19 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Formation</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/programme" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
+                <a href="/programme" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
                   Programme
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/methode" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
+                <a href="/methode" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
                   Méthode
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/tarifs" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
+                <a href="/tarifs" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
                   Tarifs
-                </Link>
+                </a>
               </li>
             </ul>
           </motion.div>
@@ -51,19 +50,19 @@ export function Footer() {
             <h4 className="font-semibold mb-4">À propos</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/formateur" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
+                <a href="/formateur" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
                   Formateur
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/temoignages" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
+                <a href="/temoignages" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
                   Résultats
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/faq" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
+                <a href="/faq" className="hover:opacity-80 hover:translate-x-1 inline-block transition-all">
                   FAQ
-                </Link>
+                </a>
               </li>
             </ul>
           </motion.div>
@@ -81,7 +80,7 @@ export function Footer() {
             </ul>
           </motion.div>
         </div>
-        <motion.div 
+        <motion.div
           className="border-t border-primary-foreground/20 pt-8 text-center text-sm opacity-80"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 0.8 }}

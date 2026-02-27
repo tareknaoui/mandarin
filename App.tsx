@@ -6,7 +6,6 @@ import AboutCoachSection from './components/AboutCoachSection';
 import PricingSection from './components/PricingSection';
 import TestimonialsBookingSection from './components/TestimonialsBookingSection';
 import BookPromoSection from './components/BookPromoSection';
-import Footer from './components/Footer';
 
 const App: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -41,7 +40,6 @@ const App: React.FC = () => {
         <TestimonialsBookingSection />
       </main>
 
-      <Footer />
 
       {/* Back to Top Button */}
       <button

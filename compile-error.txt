@@ -1,0 +1,7 @@
+App.tsx(9,8): error TS2613: Module '"C:/Users/naoui/Documents/GitHub/mandarin/components/Footer"' has no default export. Did you mean to use 'import { Footer } from "C:/Users/naoui/Documents/GitHub/mandarin/components/Footer"' instead?
+App.tsx(9,20): error TS1261: Already included file name 'C:/Users/naoui/Documents/GitHub/mandarin/components/Footer.tsx' differs from file name 'C:/Users/naoui/Documents/GitHub/mandarin/components/footer.tsx' only in casing.
+  The file is in the program because:
+    Imported via './components/Footer' from file 'C:/Users/naoui/Documents/GitHub/mandarin/App.tsx'
+    Matched by include pattern '**/*.tsx' in 'C:/Users/naoui/Documents/GitHub/mandarin/tsconfig.json'
+components/Footer.tsx(3,18): error TS2307: Cannot find module 'next/link' or its corresponding type declarations.
+components/navigation.tsx(3,18): error TS2307: Cannot find module 'next/link' or its corresponding type declarations.
